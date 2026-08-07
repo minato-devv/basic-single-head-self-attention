@@ -7,3 +7,11 @@ brew install uv
 uv sync
 uv run python -m attention
 ```
+
+Sources:
+
+https://github.com/Apoorva-Udupa/Single_head_selfAttention_Transformer.git
+
+https://mohdfaraaz.medium.com/implementing-self-attention-from-scratch-in-pytorch-776ef7b8f13e
+
+https://youtu.be/ZPLym9rJtM8?si=1NqpW02Bt5_e6341

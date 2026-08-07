@@ -1,6 +1,6 @@
 # Basic implementation of a single head self attention mechanism
 
-`attention.py` is the single entry point. It uses a sample sentence, maps tokens to indices, creates an nn.Embedding, makes explicit Q/K/V weight matrices (nn.Parameter), computes attention scores (queries @ keys.T scaled by sqrt(d_k)), applies softmax to get attention weights, and multiplies by values to produce context vectors. The repo is a didactic script (no package structure, no tests).
+`attention-v0.1.py` is the single entry point. It uses a sample sentence, maps tokens to indices, creates an nn.Embedding, makes explicit Q/K/V weight matrices (nn.Parameter), computes attention scores (queries @ keys.T scaled by sqrt(d_k)), applies softmax to get attention weights, and multiplies by values to produce context vectors. The repo is a didactic script (no package structure, no tests).
 
 ```sh
 brew install uv

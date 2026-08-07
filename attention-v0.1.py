@@ -2,7 +2,7 @@ import math
 import torch
 import torch.nn
 
-input = "The quick brown dog jumped over the lazy fox"
+input = "Because MLX was designed to feel very similar to PyTorch, everything you learn right now will easily transfer over if you decide to try MLX later"
 tokens = input.replace(',', '').split()
 seq_len = len(tokens)
 vocab = {t: i for i, t in enumerate(sorted(set(tokens)))}

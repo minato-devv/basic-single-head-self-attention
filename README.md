@@ -5,7 +5,7 @@
 ```sh
 brew install uv
 uv sync
-uv run python -m attention
+uv run python -m attention-v0.1
 ```
 
 Sources:
